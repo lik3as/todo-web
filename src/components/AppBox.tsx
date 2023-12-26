@@ -14,7 +14,7 @@ interface Props {
   children?: ReactNode
 };
 
-const AppContainer: FC<Props> = ({children}) => {
+const AppBox: FC<Props> = ({children}) => {
   return (
   <Box>
     {children}
@@ -22,4 +22,4 @@ const AppContainer: FC<Props> = ({children}) => {
   )
 };
 
-export default AppContainer;
+export default AppBox;
